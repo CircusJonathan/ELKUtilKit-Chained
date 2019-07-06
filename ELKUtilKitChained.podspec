@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-    s.name         = "ELKUtilKit-Chained"
+    s.name         = "ELKUtilKitChained"
 
     s.version      = "0.0.1"
 
@@ -11,19 +11,19 @@ Pod::Spec.new do |s|
                         Some useful tools
                     DESC
 
-    s.homepage     = "https://github.com/CircusJonathan/ELKUtilKit-Chained"
+    s.homepage     = "https://github.com/CircusJonathan/ELKUtilKitChained"
 
     s.license      = "MIT"
     s.author             = { "Jonathan" => "Jonathan_dk@163.com" }
 
     s.platform     = :ios
 
-    s.source       = { :git => "https://github.com/CircusJonathan/ELKUtilKit-Chained.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/CircusJonathan/ELKUtilKitChained.git", :tag => "#{s.version}" }
 
     s.requires_arc = true
 
 
-    s.vendored_frameworks = "ELKUtilKit-Chained/ELKUtilKit-Chained.framework"
+    s.vendored_frameworks = "ELKUtilKitChained/ELKUtilKitChained.framework"
 
     s.ios.frameworks      = 'Foundation', 'UIKit'
 
