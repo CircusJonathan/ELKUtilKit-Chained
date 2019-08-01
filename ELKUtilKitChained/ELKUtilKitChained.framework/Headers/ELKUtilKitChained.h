@@ -20,7 +20,7 @@ FOUNDATION_EXPORT const unsigned char ELKUtilKitChainedVersionString[];
 
 #import "ELKStarView+ELKUtilChained.h"
 #import "UITextView+ELKUtilPlaceHolderChained.h"
-
+#import "ELKSegmentControl+ELKUtilChained.h"
 
 
 
